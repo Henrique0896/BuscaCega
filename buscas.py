@@ -61,7 +61,7 @@ def buscaProfundidadeLimitada(inicial,final,limite): #recebe estado inicial e fi
             caminho = pilha[-1] #caminho recebe a ultima lista da pilha
             pilha = pilha[:-1] #removendo o ultimo elemento da pilha
             fimCaminho = caminho[-1] #fimCaminho tem o ultimo nó de caminho
-            printNoLargura(fimCaminho, noExp)
+            printNoProfundidade(fimCaminho, noExp)
             if fimCaminho == final: break #Se fimCaminho = objetivo então saia do laço
             if profundidade >= limite: continue #Se profundidade é maior que limite volta topo
             for movimento in mover(fimCaminho): #Para cada movimento
