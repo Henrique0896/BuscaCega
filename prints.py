@@ -10,7 +10,7 @@ def printNoLargura(estado, noExpandido):
         print('      ',estado[1][0], estado[1][1], estado[1][2])
         print('      ',estado[2][0], estado[2][1], estado[2][2])
         print("\n")
-        sleep(1)
+        sleep(0.5)
 
 def printNoProfundidade(estado, noExpandido):
         system('cls')
@@ -21,4 +21,4 @@ def printNoProfundidade(estado, noExpandido):
         print('      ',estado[1][0], estado[1][1], estado[1][2])
         print('      ',estado[2][0], estado[2][1], estado[2][2])
         print("\n")
-        sleep(1)
+        sleep(0.5)
